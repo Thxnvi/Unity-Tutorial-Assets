@@ -17,7 +17,7 @@ public class PlaySound : MonoBehaviour {
         if (!alreadyPlayed)
         {
             audio.PlayOneShot(SoundToPlay, Volume);
-            alreadyPlayed = true;
+            alreadyPlayed = false;
         }
     }
 }
